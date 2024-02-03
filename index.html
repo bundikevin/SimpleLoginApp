@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <link rel="stylesheet" href="style-login.css">
+    </head>
+    <body>
+        <div >
+            <nav id="navbar">
+                <ul>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>Services</li></a>
+                    <a href="#"><li>About Us</li></a>
+                    <a href="#"><li>Contact Us</li></a>
+                </ul>
+            </nav>
+        </div>
+    <div id="wrapper">
+    </div>
+      <div id="login">
+        <form id="Login" onsubmit="login(event)">
+                <h2>Login</h2>
+            <hr/>
+            <div id="form-group">
+                    <input type="text" id="name" placeholder="Username">
+                
+            </div>
+            <div id="form-group">
+                
+                <input type="password" id="pass" placeholder="Password">
+                
+            </div>
+            <div id="loginbtn">
+                
+                <button onclick="login(event)">Login</button>
+                <label style="color:black"><a href="/passreset.html" >Forgot Password?</a></label>
+                <label><a href="newaccount.html" >Register</a></label>
+                
+            </div>
+        </form>
+      </div>
+      <script src="script.js"></script>
+    </body>
+</html>

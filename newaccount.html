@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <link rel="stylesheet" href="style-register.css">
+    <title>Register</title>
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <form onsubmit="addUser(event)" class="register-form">
+            
+            <h2>New Account Registration</h2>
+
+            <div  id="form-group">
+                <input type="text" id="fname" name="firstname" placeholder="First Name" required>
+            </div>
+
+            <div  id="form-group">
+                <input type="text" id="lname" name="lastname" placeholder="Last Name" required>
+            </div>
+
+            <div  id="form-group">
+                <input type="text" id="uname" name="username" placeholder="Username" required>
+            </div>
+
+            <div  id="form-group">
+                <input type="text" id="pass" name="password" placeholder="Password" required>
+            </div>
+
+            <div  id="form-group">
+                <input type="text" id="pass1" name="cpassword" placeholder="Confirm Password" required>
+            </div>
+
+            <div id="loginbtn">
+                <button type="button" onclick="addUser(event)">Create Account</button>
+                <a href="index.html">Alread a User?Login</a>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>

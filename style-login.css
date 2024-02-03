@@ -1,0 +1,135 @@
+body{
+    background-color: #ccc;
+}
+#navbar{
+    margin-top: 5px;
+    background-color: rgb(119, 116, 116);
+    height:40px;
+    width: 900px;
+    /*margin-top: 5px;*/
+    margin: 50px auto;
+
+}
+
+#navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    justify-content: space-evenly;
+}
+
+#navbar li{
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+}
+
+#navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: medium;
+    margin-top: 10px;
+}
+
+#navbar li a:hover{
+    background-color: #111;
+}
+#Login{
+    width:300px;
+    height:200px;
+    background-color:bisque;
+    border-radius:5px;
+    position:relative;
+    margin-top:15px;
+    margin: 50px auto;
+}
+#Login h2{
+    text-align:center;
+    
+}
+.container h2{
+    text-align:center;
+    
+}
+#form-group{
+    padding:5px;
+    border-radius:3.5px;
+    
+}
+#name{
+    border-radius:3.5px;
+    width:270px;
+    height:20px;
+    /*margin-top:5px;*/
+}
+#fname{
+    border-radius:3.5px;
+    width:270px;
+    height:20px;
+    /*margin-top:5px;*/
+}
+#lname{
+    border-radius:3.5px;
+    width:270px;
+    height:20px;
+    /*margin-top:5px;*/
+}
+#uname{
+    border-radius:3.5px;
+    width:270px;
+    height:20px;
+    /*margin-top:5px;*/
+}
+#pass{
+    border-radius:3.5px;
+    width:270px;
+    height:20px;
+    /*margin-top:5px;*/
+}
+#pass1{
+    border-radius:3.5px;
+    width:270px;
+    height:20px;
+    /*margin-top:5px;*/
+}
+#loginbtn{
+    margin-left:5px;
+    padding:3px;
+    
+    
+}
+#loginbtn a{
+    margin-left:15px;
+    
+}
+#loginbtn label a{
+    text-decoration:none;
+}
+#loginbtn button{
+    
+    border-radius:4px 4px 4px 4px;
+    background-color:blue;
+}
+
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    margin: 0;
+    background-color: #ccc;
+}
+#btn{
+    margin-left: 5px;
+}
+#h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: #ccc;
+}

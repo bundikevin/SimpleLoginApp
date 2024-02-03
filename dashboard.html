@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+    <div class="dashboard-container">
+        <header>
+            <h1>Welcome to the Dashboard </h1>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/profile.html">Profile</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="/index.html">Logout</a></li>
+            </ul>
+        </nav>
+    
+        <main>
+            <section>
+                <h2>All Users</h2>
+                <!-- Add content for recent activities here -->
+            </section>
+    
+            <section>
+                <h2>Statistics</h2>
+                <canvas id="myChart"></canvas>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2024 Your Dashboard. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>

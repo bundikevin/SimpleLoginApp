@@ -1,0 +1,22 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead {
+    background-color: #f2f2f2; /* Light gray background for header row */
+}
+
+tr {
+    border-bottom: 1px solid #ddd; /* Border between rows */
+}
+
+td, th {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Highlight the first row as a different color if needed */
+tr:first-child {
+    background-color: #dff0d8; /* Example color, adjust as needed */
+}
